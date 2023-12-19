@@ -1,0 +1,783 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x: hidden; */
+  
+}
+body {
+  /* background-color: aqua; */
+}
+.dtdc {
+  background-color:#f9fbfd;
+  height: 100px;
+  display: flex;
+  position: fixed;
+z-index: 1;
+  width: 100%;
+}
+.dtdclogo {
+  /* background-color: red; */
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  
+}
+
+.writing {
+  /* background-color: blueviolet; */
+  width: 65%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.writingone {
+  /* background-color: chartreuse; */
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+
+.ship {
+  /* background-color: darkgoldenrod; */
+  width: 230px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  height: 50px;
+  width: 200;
+  color: white;
+  background-color: blue;
+  border: 1px solid gray;
+}
+.button:hover {
+  height: 50px;
+  width: 200;
+  color: white;
+  background-color: #dc0032;
+}
+.image {
+  /* background-color: rgb(0, 0, 0); */
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+}
+
+.video {
+  width: 100%;
+}
+.threeproject {
+  /* background-color: rgb(227, 18, 18); */
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+
+.projectinn{
+  /* background-color: rgb(60, 227, 18); */
+  height: 200px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.h3 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.776);
+}
+.boxn{
+  width: 250px;
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.boximg{
+  width: 60px;
+  height: 80px;
+  /* background-color: yellow; */
+
+
+}
+
+.text{
+  width: 300px;
+  height: 80px;
+  /* background-color: #0aa1c7; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:column;
+}
+.span {
+  font-size: 15px;
+  color:rgb(141, 131, 131);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxa {
+  width: 330px;
+  height: 160px;
+  background-color:rgb(217, 205, 205);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.01px solid rgba(128, 128, 128, 0.199);
+}
+
+.bua {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(18, 62, 100);
+  border: 0.5px solid rgb(24, 24, 92);
+  color: white;
+}
+.bua:hover {
+  background-color: rgb(219, 20, 20);
+  border: 0.5px solid rgb(228, 70, 13);
+}
+/* .logi {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.oneofindia{
+  width: 100%;
+  height: 700px;
+  /* background-color: yellow; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.provider {
+  /* background-color: darkcyan; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.oneof {
+  /* background-color: #0aa1c7; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.operating {
+  /* background-color: rgb(243, 138, 194); */
+  width: 100%;
+  height: 200px;
+  /* flex-direction: column; */
+  display: flex;
+  justify-content: space-around;
+}
+.month {
+  /* background-color: aqua; */
+  width: 250px;
+  height: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.firstone {
+  color: #dc0032;
+}
+.secondtext {
+  color: gray;
+  font-size: 20px;
+}
+.population {
+  /* background-color: olive; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.populationone {
+  /* background-color: blue; */
+  width: 280px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.million {
+  color: #dc0032;
+  font-family: sans-serif;
+}
+.approx {
+  color: gray;
+}
+.services {
+  /* background-color: chocolate; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hr {
+  /* background-color: aquamarine; */
+  width: 100;
+  border: 2px solid rgb(206, 37, 37);
+}
+.ourservices {
+  font-family: sans-serif;
+}
+
+.page2 {
+  /* background-color: darkmagenta; */
+  width: 95%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.fivebox {
+  /* background-color: rgb(31, 191, 191); */
+  width: 600px;
+  height: 200px;
+}
+.picone {
+  width: 100%;
+  /* background-color: chartreuse; */
+  
+}
+.boxsix {
+  /* background-color: rgba(150, 37, 37, 0.603); */
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.borderone {
+  /* background-color: rgb(33, 158, 33); */
+  width: 400px;
+  height: 200px;
+}
+.Logistics {
+  /* background-color: #dc0032; */
+  padding: 10px;
+  /* font-size: 30; */
+  font-family: sans-serif;
+}
+.writingsix {
+  /* background-color: aquamarine; */
+  letter-spacing: 1;
+  padding: 10px;
+  color: #777;
+  font-size: medium;
+}
+.readmore {
+  text-decoration: none;
+  color: #0e2c53;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  padding: 10px;
+}
+.ourunique {
+  /* background-color: #008bdc; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Value {
+  font-family: sans-serif;
+}
+.hrthree {
+  /* background-color: aqua; */
+  height: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hrfive {
+  width: 100px;
+  border: 2px solid #dc0032;
+}
+.Proposition {
+  /* background-color: yellow; */
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 50px; */
+}
+.Propositiontwo {
+  /* background-color: #dc0032; */
+  height: 200px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.year {
+  color: #0e2c53;
+}
+.wide {
+  color: #060c23;
+}
+.solutions {
+  /* background-color: chartreuse; */
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+.solutionone {
+  /* background: deepskyblue; */
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.robust {
+  color: #222529;
+}
+.news {
+  /* background: darkorchid; */
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newshr {
+  width: 70px;
+  margin: 10px;
+  border: 2px solid #dc0032;
+}
+.newsone {
+  font-family: sans-serif;
+}
+.readtwo {
+  color: #777;
+}
+.chennei {
+  /* background-color: darkorange; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.chenneione {
+  /* background-color: rosybrown; */
+  height: 500px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;flex-direction: column;
+}
+.launch {
+  width: 340px;
+  height: 180px;
+}
+
+.adhi {
+  /* background-color: #dc0032; */
+  height: 100px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hubone {
+  color: #0e2c53;
+  font-size: 24px;
+  margin: 5px;
+}
+
+.geethangalione {
+  /* background-color: aqua; */
+  width: 350px;
+  height: 150px;
+}
+.kolkata {
+  font-size: 15px;
+  line-height: 2;
+  padding: 3px;
+  color: #777;
+}
+
+.readplus {
+  /* background-color: #dc0032; */
+  width: 350px;
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+}
+.readmore {
+  color: #0e2c53;
+  font-size: 15;
+  font-family: sans-serif;
+}
+.readmore:hover {
+  color: rgb(4, 192, 250);
+}
+.aremax {
+  /* background-color: #dc0032; */
+  height:1000pxpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aremaxone {
+  /* background-color: aqua; */
+  height: 400pxpx;
+  width: 350px;
+}
+.aremaxonetwo {
+  width: 350px;
+  height: 200px;
+}
+.aremaxonethree {
+  /* background-color: chartreuse; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.aremaxonefive {
+  /* background-color: red; */
+  height: 80px;
+  width: 350px;
+}
+.jaipur {
+  color: #0e2c53;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.jaipurone {
+  font-size: 23px;
+  color: #0e2c53;
+  font-family: sans-serif;
+}
+.mumbai {
+  /* background-color: darkgoldenrod; */
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.mumbaione {
+  /* background-color: green; */
+  width: 350px;
+  height: 170px;
+}
+.mumbaitwo {
+  padding: 3px;
+  font-size: small;
+  line-height: 2.5;
+  color: #777;
+}
+.dtdc-read-more {
+  /* background-color: rgb(219, 12, 133); */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.aramexindia {
+  /* background-color: rgb(230, 144, 16); */
+  width: 350px;
+  height: 30px;
+}
+.readmorefive {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #0e2c53;
+}
+.readmorefive:hover {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #0aa1c7;
+}
+.testimonials {
+  /* background-color: blue; */
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+}
+.text-image {
+  /* background-color: orangered; */
+  width: 48%;
+  height: 550px;
+  display: flex;
+  /* justify-content: left; */
+  flex-direction: column;
+}
+.testimonialsone {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+
+  padding: 20px;
+}
+.text-imageone {
+  /* background-color: rgb(17, 218, 157); */
+  width: 48%;
+  height: 550px;
+}
+.smiler {
+  width: 100%;
+  /* height: ; */
+}
+.hrone {
+  width: 80px;
+  border: 2px solid #dc0032;
+  margin: 10px;
+}
+.whatour {
+  font-size: 15px;
+  margin: 16px;
+  color: #777;
+}
+.ekta {
+  /* background-color: deeppink; */
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cases {
+  color: #777;
+  line-height: 2;
+  font-size: 18;
+}
+.Chaudhary {
+  padding-right: 200px;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #01295c ;
+}
+.adhisix {
+  background-color: #02142c;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fivediv {
+  /* background-color: lime; */
+  width: 35%;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  /* background-color: rgb(219, 62, 62); */
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 30;
+}
+.emailone {
+  /* background-color: darkslategrey; */
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  border-bottom: 1px solid white;
+  
+}
+.emailtwo {
+  /* background-color: darkslategrey; */
+  width: 130px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4px;
+}
+.dtdclast {
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+}
+.emailonetwo {
+  /* background-color: darkslategrey; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 4px;
+}
+
+.customersupport {
+  color: white;
+  font-family: sans-serif;
+}
+.tenhr {
+  width: 100%;
+}
+.phonenumertwo {
+  color: white;
+  font-family: sans-serif;
+}
+.followuson {
+  /* padding: 15px; */
+  color: white;
+  font-family: sans-serif;
+}
+.circle {
+  /* background-color: rgb(17, 218, 157); */
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cshs {
+  /* background-color: yellow; */
+  height: 420px;
+  width: 860px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.company {
+  /* background-color: deeppink; */
+  height: 400px;
+  width: 230px;
+  /* width: px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.companyfive {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.hraru {
+  width: 80px;
+  margin: 18px;
+
+  border: 2px solid #dc0032;
+}
+.podsone {
+  /* background-color: greenyellow; */
+  width:100%;
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+}
+.pods {
+  /* background-color: navy; */
+  width: 170px;
+  height: 200px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+  padding: 10;
+}
+.grey {
+  /* font-size: 16; */
+  color: #ccc;
+}
+.grey:hover {
+  font-size: 16;
+  color: #fffefe;
+}
+.lastdiv {
+  background-color: #dc0032;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastdivone {
+  /* background-color: rosybrown; */
+  height: 40px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lasttwo {
+  color: white;
+  font-family: sans-serif;
+}
+.lastthree {
+  font-family: sans-serif;
+  color: #777;
+}
+
+.lastthree:hover {
+  font-family: sans-serif;
+  color: #ffffff;
+}
